@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("typhoid_model (1).pkl")
+model = joblib.load("typhoid_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
 st.title("🩺 Typhoid Prediction App")
